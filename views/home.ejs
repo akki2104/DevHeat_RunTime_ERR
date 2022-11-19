@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LiCa</title>
+
+    <!-- bootstrap -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- bootstrap java script -->
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+        </script>
+
+    <!-- normal css -->
+
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <!-- google fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Sacramento&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+
+    <!-- fontawesome -->
+
+    <script src="https://kit.fontawesome.com/4cacfa305a.js" crossorigin="anonymous"></script>
+
+    <!-- friconix -->
+    <script defer src="https://friconix.com/cdn/friconix.js"> </script>
+
+</head>
+
+<body>
+
+    <!-- Title -->
+
+    <section id="title">
+
+        <div class="container-fluid">
+            <!-- Nav Bar -->
+            <nav class="navbar navbar-expand-lg navbar-dark  navchange">
+                <a class="navbar-brand navbrand" href="#"><span class="brand animate"><div class="li">Li</div><div class="fe">fe</div><div class="ca">Ca</div><div class="re">re</div>
+                </span></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto ">
+                        <li class="lichange nav-item active ">
+                            <a class="nav-link" href="#topsearched"><span class="brand">Searched</span></a>
+                        </li>
+                        <li class="lichange nav-item active">
+                            <a class="nav-link" href="#footer"><span class="brand">Contact</span></a>
+                        </li>
+                        <li class="lichange nav-item active">
+                            <a class="nav-link" href="#specialists"><span class="brand">Doctors</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+
+
+            <div class="row titlerowdiv">
+                <div class="col-lg-6">
+                    
+                    <h1>Expert talking Expert.</h1>
+                    <h1>Care that's always here.For you.For Life.<span class="brand">Li</span>fe <span
+                            class="brand">Ca</span>re</h1>
+                    
+                    <button type="button " onclick="document.location='register'"
+                        class="btn btn-dark btn-lg buttchange"><i class="fa-solid fa-user-plus"></i>
+                        Join Now</button>
+                    <button type="button" onclick="document.location='login'" href="login.html"
+                        class="btn btn-outline-dark btn-lg buttchange"><i class="fa-solid fa-user"></i>
+                        Sign In</button>
+                </div>
+                <div class="col-lg-6">
+                    <img class="imgchange" src="./images/lica doc 2.png" alt="iphone-mockup">
+                </div>
+            </div>
+    </section>
+
+
+    <!-- <section id="topsearched" class="featsec">
+
+        <div class="row m-auto">
+
+            <div class="featchange col-lg-4">
+                <center><a href="bmi" ><i class="fa-solid fa-dumbbell fa-3x imgclass"></i>
+                        <h3>BMI Calci</h3>
+                    </a></center>
+            </div>
+
+            <div class="featchange col-lg-4">
+                <center><a href="diet"><i class="fa-solid fa-wheat-awn-circle-exclamation fa-3x imgclass"></i>
+                        <h3>Diet Plan</h3>
+                    </a></center>
+            </div>
+
+            <div class="featchange col-lg-4">
+                <center><a href="bfc"><i class="fa-solid fa-heart-pulse fa-3x imgclass"></i>
+                        <h3>Fat Calci</h3>
+                    </a></center>
+            </div>
+
+        </div>
+        <div class="row m-auto">
+
+            <div class="featchange col-lg-4">
+                <center><a href="bmr"><i class="fa-solid fa-heart-circle-plus fa-3x imgclass"></i>
+                        <h3>BMR Calculator</h3>
+                    </a></center>
+            </div>
+
+            <div class="featchange col-lg-4">
+                <center><a href="#"><i class="fa-solid fa-book fa-3x imgclass"></i>
+                        <h3>My Data </h3>
+                    </a></center>
+            </div>
+
+            <div class="featchange col-lg-4">
+                <center><a href="#"><i class="fa-solid fa-circle-check fa-3x imgclass"></i>
+                        <h3>Personal Assistance</h3>
+                    </a></center>
+            </div>
+
+        </div>
+
+    </section> -->
+<section id="topsearched" class="featsec">
+
+        <div class="row m-auto">
+
+            <div class="featchange col-lg-4 col-md-6">
+                <center><a href="bmi"><i class="fa-solid fa-dumbbell fa-3x imgclass"></i>
+                        <h3>BMI Calci</h3>
+                    </a></center>
+            </div>
+
+            <div class="featchange col-lg-4 col-md-6">
+                <center><a href="diet"><i class="fa-solid fa-wheat-awn-circle-exclamation fa-3x imgclass"></i>
+                        <h3>Diet Plan</h3>
+                    </a></center>
+            </div>
+
+            <div class="featchange col-lg-4 col-md-12">
+                <center><a href="bfc"><i class="fa-solid fa-heart-pulse fa-3x imgclass"></i>
+                        <h3>Fat Calci</h3>
+                    </a></center>
+            </div>
+
+        </div>
+        <div class="row m-auto">
+
+            <div class="featchange col-lg-4 col-md-6">
+                <center><a href="bmr"><i class="fa-solid fa-heart-circle-plus fa-3x imgclass"></i>
+                        <h3>BMR Calculator</h3>
+                    </a></center>
+            </div>
+
+            <div class="featchange col-lg-4 col-md-6">
+                <center><a href="#"><i class="fa-solid fa-book fa-3x imgclass"></i>
+                        <h3>My Data </h3>
+                    </a></center>
+            </div>
+
+            <div class="featchange col-lg-4 col-md-12">
+                <center><a href="#"><i class="fa-solid fa-handshake fa-3x imgclass"></i>
+                        <h3>Personal Assistance</h3>
+                    </a></center>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- sprecialists section -->
+
+    <section id="specialists">
+
+        <div class="container-fluid">
+
+            <h1 class="out">
+                Top Rated Specialists
+            </h1>
+            <p class="out pat" >95% patients find them helpfull</p>
+            <div class="container-fluid">
+                <div class="scrolling-wrapper row flex-row flex-nowrap mt-4">
+
+                    <div class="col-5">
+                        <div class="card card-block card-1">
+                            <div class="card-header d-flex">
+                                <img src="./images/trung.jpg" class="logos" alt="">
+                                <h4 class="docname">Mr. Trunk</h4>
+                                <p class="des">Gynecologist</p>
+                            </div>
+                            <div class="card-body">
+                                <ul>
+                                    <li>Surat,Gujrat</li>
+                                </ul>
+                                <h5>Recent Reviews:</h5>
+                                <p>
+                                    "Amazing, compassionate doctor and nurses in a very organized and new
+                                    space.recommend!"
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-5">
+                        <div class="card card-block card-2">
+                            <div class="card-header d-flex">
+                                <img src="./images/hung.jpg" class="logos" alt="">
+                                <h4 class="docname">Mr. Hunk</h4>
+                                <p class="des">M.D.</p>
+                            </div>
+                            <div class="card-body">
+                                <ul>
+                                    <li>Seol,South Korea</li>
+                                </ul>
+                                <h5>Recent Reviews:</h5>
+                                <p>
+                                    "Really comfortable and compassionate doctor and nurses in a very organized and new
+                                    space."
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-5">
+                        <div class="card card-block card-3">
+                            <div class="card-header d-flex">
+                                <img src="./images/reef.jpg" class="logos" alt="">
+                                <h4 class="docname">Ms. Reef</h4>
+                                <p class="des">Neurosurgeon</p>
+                            </div>
+                            <div class="card-body">
+                                <ul>
+                                    <li>New York,U.K.</li>
+                                </ul>
+                                <h5>Recent Reviews:</h5>
+                                <p>
+                                    Dr. Reef and her staff were phenomenal.She answered all questions that I had."
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-5">
+                        <div class="card card-block card-4">
+                            <div class="card-header d-flex">
+                                <img src="./images/tran.jpg" class="logos" alt="">
+                                <h4 class="docname">Mr. Tran</h4>
+                                <p class="des">Dentist</p>
+                            </div>
+                            <div class="card-body">
+                                <ul>
+                                    <li>Jersey City,NZ</li>
+                                </ul>
+                                <h5>Recent Reviews:</h5>
+                                <p>
+                                    "Amazing service, very informative and easy to understand."
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+    <!-- faqs -->
+    
+    <section class="faq container-fluid">
+        
+        <h3>FAQs</h3>
+        <div class="accordion container-fluid" id="accordionExample">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h2>
+                  <button class="btn btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Who can use LiCa?
+                  </button>
+                </h2>
+              </div>
+          
+              <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                <div class="card-body">
+                    <p class="answer">The main motive of LiCa is to Connect your fellow medical experts, so that every healthcare expert can take the benefit</p>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingTwo">
+                <h2>
+                  <button class="btn btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Are the doctors verified?
+                  </button>
+                </h2>
+              </div>
+              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                <div class="card-body">
+                    <p class="answer">All the doctors are verified by our LiCa team before activation of their account.</p>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingThree">
+                <h2>
+                  <button class="btn btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    What about the data we share with the website?
+                  </button>
+                </h2>
+              </div>
+              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                <div class="card-body">
+                    <p class="answer">
+                        Dont't Worry, your data will be fully private. Only you other than yourself can access your data, so go ahead and suityourself.
+                    </p>
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+    <!-- Footer -->
+
+    <footer id="footer">
+
+        <i class="fa-brands fa-facebook fa-2x footer-img fb"></i>
+        <i class="fa-brands fa-instagram fa-2x footer-img insta"></i>
+        <i class="fa-solid fa-envelope fa-2x footer-img mail"></i>
+        <i class="fa-brands fa-twitter fa-2x footer-img twit"></i>
+
+        <p>© Copyright LiCa</p>
+
+    </footer>
+
+
+</body>
+
+</html>

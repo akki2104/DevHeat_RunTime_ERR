@@ -1,0 +1,89 @@
+
+body{
+    background-color: grey;
+}
+
+.nbrand{
+    color: black;
+}
+
+.navbrand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3.5rem;
+
+}
+
+.navchange {
+    padding: 0;
+    margin-bottom: 75px;
+}
+
+.lichange {
+    padding: 0 5% 0;
+}
+
+ul{
+    margin-left: 80%;
+}
+
+.chatchange{
+    max-width: 40%;
+    width: 70%;
+}
+.cardchange{
+    border-radius: 20px;
+    background-color: #10bbfe;
+}
+.header{
+    display: flex;
+}
+.icon{
+    margin: 1%;
+}
+.brand{
+    padding-top: 2%;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+}
+.messagearea{
+    height: 400px;
+    max-height: 600px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    margin: 2%;
+}
+
+#typemsg{
+    width: 100%;
+    border:none;
+    border-radius: 5px;
+    outline: none;
+    padding: 1%;
+}
+
+.incoming{
+    background-color: rgb(36, 36, 36);
+    color: white;
+    border-radius: 10px;
+    margin: 1%;
+    padding: 1%;
+    max-width: 50%;
+}
+.outgoing{
+    background-color: #99f57b;
+    border-radius: 10px;
+    margin: 1%;
+    padding: 1%;
+    max-width: 90%;
+    margin-left: 50%;
+}
+.outgoing p{
+    font-weight: bold;
+    position: relative;
+}
+.incoming p{
+    font-weight: bold;
+    position: relative;
+    color: white;
+}

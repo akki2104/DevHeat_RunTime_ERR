@@ -1,0 +1,74 @@
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes" />
+  <meta name="description" content="login-page" />
+  <meta name="author" content="" />
+
+  <title>Sign-up-social-hub</title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+  <!-- bootstrap java script -->
+
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+    integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous">
+  </script>
+  <link rel="stylesheet" href="./css/signup.css" />
+  <!-- fontawesome -->
+  <script src="https://kit.fontawesome.com/4cacfa305a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <section>
+    <div class="logo">
+      <!-- <p id="name">LiCa -->
+        <a id="name" class="navbar-brand navbrand" href="#"><span class="brand animate"><div class="li">Li</div><div class="fe">fe</div><div class="ca">Ca</div><div class="re">re</div>
+        </span></a>
+    </div>
+    <br><br>
+    <form action="/register" method="POST">
+      <div>
+        <p class="titles">Name:</p>
+        <label for="username">
+          <input type="text" id="username" name="name" placeholder="Enter your Name" required class="input-box"
+            required>
+        </label>
+      </div>
+      <br>
+      <div>
+        <p class="titles">Email:</p>
+        <label for="email">
+          <input type="email" id="email" name="email" placeholder="Email address" required class="input-box"
+            required>
+        </label>
+      </div>
+      <div><br>
+        <p class="titles">Password:</p>
+        <label for="pass">
+          <input type="password" id="pass" name="password" placeholder="Password" required class="input-box" required>
+        </label>
+      </div>
+      <!-- <div><br>
+        <p class="titles">Confirm Password:</p>
+        <label for="pass">
+          <input type="password" id="pass" name="login-page" placeholder="Confirm Password" required class="input-box"
+            required>
+        </label>
+      </div> -->
+      <br>
+      <div><br>
+        <button type="submit" class="btn btn-dark btn-outline-light">Register</button>
+      </div>
+    </form>
+    <p id="copyright">&copy;Social-Hub Inc. 2022</p>
+</body>
+
+</html>

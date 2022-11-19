@@ -1,0 +1,286 @@
+body {
+    background-color: black;
+    color: #fff;
+    font-family: 'system-ui';
+}
+
+h1 {
+    font-family: 'Ubuntu', sans-serif;
+    color: #fff;
+    line-height: 1.5;
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+h2 {
+    text-align: center;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'Montserrat', sans-serif;
+}
+h4 {
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'system-ui';
+}
+a,a:hover{
+    text-decoration: none;
+}
+
+
+/* title */
+
+#title {
+    background-color: #7FB77E;
+}
+.brand{
+    color: black;
+}
+.container-fluid {
+    padding: 2% 10%;
+}
+
+.navbrand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3.5rem;
+
+}
+
+.navchange {
+    padding: 0;
+    margin-bottom: 75px;
+}
+
+.buttchange {
+    margin: 5% 3% 5% 0%;
+}
+
+.titlerowdiv {
+    margin-bottom: 75px;
+}
+
+.imgchange {
+    width: 90%;
+    position: absolute;
+    top: -4%;
+}
+
+.lichange {
+    padding: 0 5% 0;
+}
+
+
+/* top-searched */
+
+.featsec{
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+.featchange{
+    margin-bottom: 7%;
+}
+
+.for-border {
+    border-style: dashed;
+    border-color: rgb(214, 206, 206);
+    border-radius: 50px;
+}
+
+.logos {
+    width: 25%;
+    border-radius: 100%;
+}
+
+.imgclass {
+    padding-bottom: 5%;
+    /* color: #ff4c68; */
+}
+
+
+
+
+/* specialists */
+
+.out{
+    color: black;
+}
+
+#specialists{
+    background-color: #7FB77E;
+}
+
+.scrolling-wrapper {
+    overflow-x: auto;
+}
+
+.subtitle {
+    font-size: 1.25em;
+    opacity: 0.65;
+}
+
+.card-block {
+    height: 300px;
+    background-color: #fff;
+    border: none;
+    background-position: center;
+    background-size: cover;
+    transition: all 0.2s ease-in-out !important;
+    border-radius: 24px;
+
+}
+
+.card-1 {
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+}
+
+.card-2 {
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+}
+
+.card-3 {
+    background-color: #00DBDE;
+    background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+}
+
+.card-4 {
+    background-color: #FBAB7E;
+    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+}
+
+.card-5 {
+    background-color: #85FFBD;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+}
+
+.card-6 {
+    background-color: #FA8BFF;
+    background-image: linear-gradient(45deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%);
+}
+
+.card-7 {
+    background-color: #FA8BFF;
+    background-image: linear-gradient(45deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%);
+}
+
+.card-8 {
+    background-color: #FBDA61;
+    background-image: linear-gradient(45deg, #FBDA61 0%, #FF5ACD 100%);
+}
+
+.card-9 {
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+}
+
+.card-10 {
+    background-color: #FF3CAC;
+    background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+
+}
+.docname{
+    margin-top: 5%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    margin-left: 5%;
+}
+.des{
+    position: relative;
+    top: 50%;
+    right: 30%;
+}
+
+/* faq */
+.faq{
+    background-color: white;
+    color: black;
+    /* padding-left:7%;
+    padding-right: 7%;
+    padding-top: 2%;
+    padding-bottom: 4%; */
+}
+.ans{
+    font-family: 'Roboto Slab', serif;
+}
+
+
+
+/* footer */
+#footer {
+    text-align: center;
+    padding: 3% 0;
+}
+
+.footer-img {
+    padding-bottom: 2%;
+}
+
+.fb:hover {
+    color: #4267B2;
+    margin: 0% 2%;
+    font-size: 45px;
+}
+.insta:hover {
+    color: #cd486b	;
+    margin: 0% 2%;
+    font-size: 45px;
+}
+.mail:hover {
+    color: #F4B400;
+    margin: 0% 2%;
+    font-size: 45px;
+}
+.twit:hover {
+    color: #1DA1F2;
+    margin: 0% 2%;
+    font-size: 45px;
+}
+
+
+/* animation */
+div{
+    display: inline-block;
+}
+
+.fe{
+    transition: all 1s;
+    opacity: 0;
+    font-size: 0;
+}
+.animate:hover .fe{
+    opacity: 1;
+    font-size: 3rem;
+}
+.re{
+    transition: all 1s;
+    opacity: 0;
+    font-size: 0;
+}
+.animate:hover .re{
+    opacity: 1;
+    font-size: 3rem;
+}
+
+
+/* media breakpoint */
+@media (max-width:990px) {
+    .imgchange {
+        position: static;
+    }
+
+    #title{
+        text-align: center;
+    }
+}
+
+.pat{
+    color: #fff;
+    font-size: 1.5rem;
+    padding-left: 5px;
+}
